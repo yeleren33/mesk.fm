@@ -1,0 +1,258 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Lucida;
+  font-style: italic;
+  padding: 0px;
+  background: #f1f1f1;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  color: orange;
+}
+
+.header h1 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.topnav {
+  font-style: normal;
+  overflow: hidden;
+  background-color: orange;
+}
+
+.topnav a{
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.topnav a:hover{
+  background-color: purple;
+}
+
+.row {
+  background-color: orange;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn {
+  float: left;
+  width: 40%;
+} .leftcolumn h1{
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+} .leftcolumn p{
+  padding-top: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+} .leftcolumn img{
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+ /* ********************************* */
+
+.rightcolumn {
+  float: right;
+  width: 50%;
+  padding-top: 0px;
+
+}
+
+.card {
+  margin-bottom: 50px;
+  background-color: white;
+  font-style: normal;
+}
+
+ /* ********************************* */
+
+#regForm {
+  background-color: white;
+  margin: 30px auto;
+  font-family: Arial;
+  padding: 40px;
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+}
+
+input{
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-style: normal;
+  font-family: Arial;
+  border: 1px solid purple;
+}
+
+input.invalid {
+  background-color: red;
+  color: #ffdddd;
+}
+
+.tab {
+  margin-top: 50px;
+  display: none;
+  font-style: normal;
+}
+
+button {
+  margin-top: 50px;
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: orange;
+}
+
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: orange;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  background-color: purple;
+  opacity: 1;
+}
+
+ /* ********************************* */
+
+.footer {
+  background-color: purple;
+  color: white;
+  width: 100%;
+  display: table;
+  clear: both;
+} .footer h5{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  float: right;
+  font-family: Arial;
+  font-style: normal;
+}
+
+ /* ********************************* */
+.center {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.search{
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+} .search input[type=text]{
+  text-align: left;
+  margin-right: 0px;
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid purple;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  }.search button{
+    margin-left: 0px;
+    padding: 10px;
+    background-color: purple;
+    width: 10%;
+    } .search input[type=text]:focus {
+      width: 50%;
+      }
+
+ /* ********************************* */
+
+.imgcontainer {
+   display: block;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 25%;
+}
+
+img.avatar {
+  text-align: center;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.container {
+  font-family: Arial;
+  font-style: normal;
+  padding: 40px;
+  margin-left: 30px;
+} .container input{
+  padding: 10px;
+  width: 100%;
+  margin: 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid purple;
+  box-sizing: border-box;
+} .container button {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  margin: 8px 0 ;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+span.psw {
+  float: right;
+  padding: 10px;
+  color: purple;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}

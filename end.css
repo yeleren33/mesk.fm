@@ -1,0 +1,194 @@
+/* skeleton */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Lucida;
+  font-style: italic;
+  padding: 0px;
+  background: #f1f1f1;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  color: orange;
+}
+
+.header h1 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.topnav {
+  font-style: normal;
+  overflow: hidden;
+  background-color: orange;
+}
+
+.topnav a{
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.topnav a:hover{
+  background-color: purple;
+}
+
+/* home page middle center */
+
+.center{
+  margin: 20px;
+}
+
+.centercard{
+  background-color: white;
+  font-style: normal;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.centercard h3{
+  background-color: white;
+  font-style: normal;
+}
+.centercard p{
+  background-color: white;
+  font-style: normal;
+
+}
+
+.centertitle{
+  font-style: normal;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.centertitle h1{
+  text-align: center;
+  color: purple;
+  font-style: normal;
+}
+
+/* left column profile */
+
+.leftcolumn{
+  float: left;
+  width: 30%;
+  margin: 20px;
+  background-color: white;
+  font-style: normal;
+}
+
+.leftcolumn h1{
+  padding: 16px;
+  text-align: left;
+  color: black;
+}
+
+.leftcolumn h3{
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  text-align: left;
+  color: black;
+}
+
+.leftcolumn p{
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  text-align: left;
+  color: black;
+}
+
+.imagecontainer {
+   display: block;
+}
+
+img.profile {
+  text-align: center;
+  width: 100%;
+}
+
+/* right column profile */
+
+.askcard button{
+  background-color: purple;
+  color: white;
+  width: 900px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+.rightcolumn {
+  float: right;
+  width: 65%;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.rightcolumn h1{
+  padding: 30px;
+  text-align: left;
+  color: purple;
+}
+
+.rightcolumn h3{
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  text-align: left;
+  color: black;
+}
+
+.rightcolumn p{
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  text-align: left;
+  color: black;
+}
+
+.askcard{
+  background-color: white;
+  font-style: normal;
+  margin-bottom: 16px;
+  padding-left: 42px;
+}
+
+
+
+.card{
+    background-color: white;
+    font-style: normal;
+}
+
+/* footer */
+
+.footer {
+  background-color: purple;
+  color: white;
+  width: 100%;
+  display: table;
+  clear: both;
+} .footer h5{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  float: right;
+  font-family: Arial;
+  font-style: normal;
+}
